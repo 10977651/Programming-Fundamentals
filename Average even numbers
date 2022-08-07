@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int avgEven (int n)
+{
+  if (n % 2!= 0){
+  cout<< "Invalid entry";
+  return -1;
+  }
+  return(n + 20) / 2;
+}
+int main()
+{
+int n = 16;
+cout<< avgEven(n) << endl;
+return 0;
+}
+//This code is contributed by Jacob Arhin
